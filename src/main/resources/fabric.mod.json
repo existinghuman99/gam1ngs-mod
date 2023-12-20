@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "g3r",
+	"version": "${version}",
+	"name": "gam1ngs-third-rails",
+	"description": "Third rails for MTR!",
+	"authors": [
+		"gam1ng"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/g3r/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gam1ng.g3r.Gam1ngsthirdrails"
+		],
+		"client": [
+			"net.gam1ng.g3r.Gam1ngsthirdrailsClient"
+		],
+		"fabric-datagen": [
+			"net.gam1ng.g3r.Gam1ngsthirdrailsDataGenerator"
+		]
+	},
+	"mixins": [
+		"g3r.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
