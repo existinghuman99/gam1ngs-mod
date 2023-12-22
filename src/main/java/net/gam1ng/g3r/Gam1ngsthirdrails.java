@@ -1,6 +1,7 @@
 package net.gam1ng.g3r;
 
 import net.fabricmc.api.ModInitializer;
+import net.gam1ng.g3r.block.ModBlocks;
 import net.gam1ng.g3r.item.ModItemGroup;
 import net.gam1ng.g3r.item.ModItems;
 
@@ -15,5 +16,6 @@ public class Gam1ngsthirdrails implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
