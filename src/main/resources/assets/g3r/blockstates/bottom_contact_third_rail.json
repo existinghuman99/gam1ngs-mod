@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "g3r:block/bottom_contact_third_rail"
+        },
+        "facing=south": {
+            "model": "g3r:block/bottom_contact_third_rail",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "g3r:block/bottom_contact_third_rail",
+            "y": 270
+        },
+        "facing=east": {
+            "model": "g3r:block/bottom_contact_third_rail",
+            "y": 90
+        }
+    }
+}

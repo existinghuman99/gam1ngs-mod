@@ -18,6 +18,9 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block THIRD_RAIL_1 = registerBlock("top_contact_third_rail",
         new TopContactThirdRail(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.GAM1NGSTHIRDRAILS);
+    
+    public static final Block THIRD_RAIL_2 = registerBlock("bottom_contact_third_rail",
+        new TopContactThirdRail(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.GAM1NGSTHIRDRAILS);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
