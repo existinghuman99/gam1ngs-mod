@@ -19,16 +19,15 @@ import net.minecraft.state.StateManager;
 
 public class TopContactThirdRail extends HorizontalFacingBlock{
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
-
+    
     public TopContactThirdRail(Settings settings) {
         super(settings);
     }
-
     @Nullable
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         return this.getDefaultState().with(FACING, ctx.getHorizontalPlayerFacing().getOpposite());
-    }
+    }  
 
     @Override
     public BlockState rotate(BlockState state, BlockRotation rotation) {
@@ -47,7 +46,7 @@ public class TopContactThirdRail extends HorizontalFacingBlock{
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 1.0f, 0.5f);
+        return VoxelShapes.cuboid(0f, 0.0001f, 0f, 1f, 0.25f, 1f);
 
     }
 }

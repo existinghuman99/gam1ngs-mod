@@ -17,5 +17,6 @@ public class Gam1ngsthirdrails implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		
 	}
 }
