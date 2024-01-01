@@ -2,14 +2,14 @@
 	"schemaVersion": 1,
 	"id": "g3r",
 	"version": "${version}",
-	"name": "gam1ngs-third-rails",
-	"description": "Third rails for MTR!",
+	"name": "gam1ngs-mod",
+	"description": "More cosmetic blocks for MTR",
 	"authors": [
 		"gam1ng"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": ""
 	},
 	"license": "MIT",
 	"icon": "assets/g3r/icon.png",

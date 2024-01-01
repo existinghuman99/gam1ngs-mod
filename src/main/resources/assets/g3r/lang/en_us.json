@@ -1,4 +1,9 @@
 {
     "block.g3r.top_contact_third_rail": "Top Contact Third Rail",
-    "block.g3r.bottom_contact_third_rail": "Bottom Contact Third Rail"
+    "block.g3r.bottom_contact_third_rail": "Bottom Contact Third Rail",
+
+    "block.g3r.dark_green_marble": "Dark Green Marble",
+    "block.g3r.light_green_marble": "Light Green Marble",
+
+    "block.g3r.bollard_1": "Bollard 1"
 }
