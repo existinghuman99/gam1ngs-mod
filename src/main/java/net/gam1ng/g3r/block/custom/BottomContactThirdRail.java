@@ -46,7 +46,7 @@ public class BottomContactThirdRail extends HorizontalFacingBlock {
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.cuboid(0f, 0f, 0f, 1f, 1.0f, 0.5f);
+        return VoxelShapes.cuboid(0f, 0.0001f, 0f, 1f, 0.25f, 1f);
 
     }
 }
