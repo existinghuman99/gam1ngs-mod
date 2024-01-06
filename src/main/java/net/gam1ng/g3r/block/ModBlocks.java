@@ -34,6 +34,9 @@ public class ModBlocks {
     public static final Block THIRD_RAIL_2 = registerBlock("bottom_contact_third_rail",
         new BottomContactThirdRail(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.GAM1NGSTHIRDRAILS);
 
+    public static final Block GIRDER_VERTICAL = registerBlock("girder_vertical",
+        new GirderVertical(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.GAM1NGSTHIRDRAILS);
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(Gam1ngsthirdrails.MOD_ID, name), block);

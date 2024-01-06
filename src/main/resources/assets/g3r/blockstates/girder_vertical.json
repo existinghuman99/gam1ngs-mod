@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "facing=true": {
+            "model": "g3r:block/girder_vertical"
+        },
+        "facing=false": {
+            "model": "g3r:block/girder_vertical",
+            "y": 90
+        }
+    }
+}
